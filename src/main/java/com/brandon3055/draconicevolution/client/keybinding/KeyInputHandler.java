@@ -65,7 +65,7 @@ public class KeyInputHandler {
 //        else if (KeyBindings.toolProfileChange.isPressed() && HandHelper.getMainFirst(player) != null) {
 ////            PacketDispatcher.dispatchToolProfileChange(false);
 //        }
-        else if (KeyBindings.toggleFlight.consumeClick()) {
+        /*else if (KeyBindings.toggleFlight.consumeClick()) {
             if (player.abilities.mayfly) {
                 if (player.abilities.flying) {
                     player.abilities.flying = false;
@@ -79,7 +79,7 @@ public class KeyInputHandler {
                     player.onUpdateAbilities();
                 }
             }
-        } else if (KeyBindings.toggleMagnet.consumeClick()) {
+        }*/ else if (KeyBindings.toggleMagnet.consumeClick()) {
             DraconicNetwork.sendToggleMagnets();
         } else if (KeyBindings.dislocatorTeleport.consumeClick()) {
             DraconicNetwork.sendDislocatorMessage(11, output -> {});

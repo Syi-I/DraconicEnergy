@@ -39,7 +39,7 @@ public class KeyBindings {
     public static void init() {
         placeItem           = new KeyBinding("key.draconicevolution.place_item",            new CustomContext(IN_GAME, () -> placeItem),                InputMappings.Type.KEYSYM, GLFW.GLFW_KEY_P,         DraconicEvolution.MODNAME);
         toolConfig          = new KeyBinding("key.draconicevolution.tool_config",           new CustomContext(IN_GAME, () -> toolConfig),               InputMappings.Type.KEYSYM, GLFW.GLFW_KEY_C,         DraconicEvolution.MODNAME);
-        toggleFlight        = new KeyBinding("key.draconicevolution.toggle_flight",         new CustomContext(IN_GAME, () -> toggleFlight),             InputMappings.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,   DraconicEvolution.MODNAME);
+        //toggleFlight        = new KeyBinding("key.draconicevolution.toggle_flight",         new CustomContext(IN_GAME, () -> toggleFlight),             InputMappings.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,   DraconicEvolution.MODNAME);
         toggleMagnet        = new KeyBinding("key.draconicevolution.toggle_magnet",         new CustomContext(IN_GAME, () -> toggleMagnet),             InputMappings.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,   DraconicEvolution.MODNAME);
         dislocatorTeleport  = new KeyBinding("key.draconicevolution.dislocator_teleport",   new CustomContext(IN_GAME, () -> dislocatorTeleport),       InputMappings.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,   DraconicEvolution.MODNAME);
         dislocatorBlink     = new KeyBinding("key.draconicevolution.dislocator_blink",      new CustomContext(IN_GAME, () -> dislocatorBlink),          InputMappings.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,   DraconicEvolution.MODNAME);
@@ -55,7 +55,7 @@ public class KeyBindings {
         ClientRegistry.registerKeyBinding(placeItem);
         ClientRegistry.registerKeyBinding(toolConfig);
         ClientRegistry.registerKeyBinding(toolModules);
-        ClientRegistry.registerKeyBinding(toggleFlight);
+        //ClientRegistry.registerKeyBinding(toggleFlight);
 
         ClientRegistry.registerKeyBinding(toggleMagnet);
         ClientRegistry.registerKeyBinding(dislocatorTeleport);
