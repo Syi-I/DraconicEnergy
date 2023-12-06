@@ -4,10 +4,10 @@ license="CoFH \"Don't Be a Jerk\" License"
 
 [[mods]]
 	modId="draconicevolution"
-	displayName="Draconic Evolution"
+	displayName="Draconic Energy"
 	version="${version}"
 	authors="brandon3055"
-	description=''''''
+	description='''Literally just Draconic Evolution but with the OP tools and armor gutted out.'''
 [[dependencies.draconicevolution]]
 	modId="forge"
 	mandatory=true

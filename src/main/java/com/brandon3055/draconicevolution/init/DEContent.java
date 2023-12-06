@@ -525,30 +525,30 @@ public class DEContent {
         registerItem(event, new DraconiumCapacitor(draconicTools).setRegistryName("draconic_capacitor"));
         registerItem(event, new DraconiumCapacitor(chaoticTools).setRegistryName("chaotic_capacitor"));
         registerItem(event, new DraconiumCapacitor(chaoticTools).setRegistryName("creative_capacitor"));
-        registerItem(event, new ModularShovel(wyvernTools).setRegistryName("wyvern_shovel"));
-        registerItem(event, new ModularShovel(draconicTools).setRegistryName("draconic_shovel"));
-        registerItem(event, new ModularShovel(chaoticTools).setRegistryName("chaotic_shovel"));
-        registerItem(event, new ModularHoe(wyvernTools).setRegistryName("wyvern_hoe"));
-        registerItem(event, new ModularHoe(draconicTools).setRegistryName("draconic_hoe"));
-        registerItem(event, new ModularHoe(chaoticTools).setRegistryName("chaotic_hoe"));
-        registerItem(event, new ModularPickaxe(wyvernTools).setRegistryName("wyvern_pickaxe"));
-        registerItem(event, new ModularPickaxe(draconicTools).setRegistryName("draconic_pickaxe"));
-        registerItem(event, new ModularPickaxe(chaoticTools).setRegistryName("chaotic_pickaxe"));
-        registerItem(event, new ModularAxe(wyvernTools).setRegistryName("wyvern_axe"));
-        registerItem(event, new ModularAxe(draconicTools).setRegistryName("draconic_axe"));
-        registerItem(event, new ModularAxe(chaoticTools).setRegistryName("chaotic_axe"));
-        registerItem(event, new ModularBow(wyvernTools).setRegistryName("wyvern_bow"));
-        registerItem(event, new ModularBow(draconicTools).setRegistryName("draconic_bow"));
-        registerItem(event, new ModularBow(chaoticTools).setRegistryName("chaotic_bow"));
-        registerItem(event, new ModularSword(wyvernTools).setRegistryName("wyvern_sword"));
-        registerItem(event, new ModularSword(draconicTools).setRegistryName("draconic_sword"));
-        registerItem(event, new ModularSword(chaoticTools).setRegistryName("chaotic_sword"));
-        registerItem(event, new ModularStaff(draconicTools).setRegistryName("draconic_staff"));
-        registerItem(event, new ModularStaff(chaoticTools).setRegistryName("chaotic_staff"));
+        //registerItem(event, new ModularShovel(wyvernTools).setRegistryName("wyvern_shovel"));
+        //registerItem(event, new ModularShovel(draconicTools).setRegistryName("draconic_shovel"));
+        //registerItem(event, new ModularShovel(chaoticTools).setRegistryName("chaotic_shovel"));
+        //registerItem(event, new ModularHoe(wyvernTools).setRegistryName("wyvern_hoe"));
+        //registerItem(event, new ModularHoe(draconicTools).setRegistryName("draconic_hoe"));
+        //registerItem(event, new ModularHoe(chaoticTools).setRegistryName("chaotic_hoe"));
+        //registerItem(event, new ModularPickaxe(wyvernTools).setRegistryName("wyvern_pickaxe"));
+        //registerItem(event, new ModularPickaxe(draconicTools).setRegistryName("draconic_pickaxe"));
+        //registerItem(event, new ModularPickaxe(chaoticTools).setRegistryName("chaotic_pickaxe"));
+        //registerItem(event, new ModularAxe(wyvernTools).setRegistryName("wyvern_axe"));
+        //registerItem(event, new ModularAxe(draconicTools).setRegistryName("draconic_axe"));
+        //registerItem(event, new ModularAxe(chaoticTools).setRegistryName("chaotic_axe"));
+        //registerItem(event, new ModularBow(wyvernTools).setRegistryName("wyvern_bow"));
+        //registerItem(event, new ModularBow(draconicTools).setRegistryName("draconic_bow"));
+        //registerItem(event, new ModularBow(chaoticTools).setRegistryName("chaotic_bow"));
+        //registerItem(event, new ModularSword(wyvernTools).setRegistryName("wyvern_sword"));
+        //registerItem(event, new ModularSword(draconicTools).setRegistryName("draconic_sword"));
+        //registerItem(event, new ModularSword(chaoticTools).setRegistryName("chaotic_sword"));
+        //registerItem(event, new ModularStaff(draconicTools).setRegistryName("draconic_staff"));
+        //registerItem(event, new ModularStaff(chaoticTools).setRegistryName("chaotic_staff"));
         //Armor
-        registerItem(event, new ModularChestpiece(wyvernTools).setRegistryName("wyvern_chestpiece"));
-        registerItem(event, new ModularChestpiece(draconicTools).setRegistryName("draconic_chestpiece"));
-        registerItem(event, new ModularChestpiece(chaoticTools).setRegistryName("chaotic_chestpiece"));
+        //registerItem(event, new ModularChestpiece(wyvernTools).setRegistryName("wyvern_chestpiece"));
+        //registerItem(event, new ModularChestpiece(draconicTools).setRegistryName("draconic_chestpiece"));
+        //registerItem(event, new ModularChestpiece(chaoticTools).setRegistryName("chaotic_chestpiece"));
         //@formatter:on
     }
 
